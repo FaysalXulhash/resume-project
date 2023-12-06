@@ -1,0 +1,31 @@
+{% extends "core/base.html" %} {%load static%} {% block content%}
+<div class="mt-5">
+  <div class="text-center">
+    <img
+      src="{% static 'core/images/profile.jpeg' %}"
+      alt="ProfilePic"
+      class="img-thumbnail"
+      width="250px"
+      height="150px"
+    />
+  </div>
+  <div class="mt-5 text-white mx-5 text-justify">
+    <h1 class="font-weight-blod st-font">Hello,</h1>
+    <div class="px=4" style="line-height: 2rem">
+      <p style="text-indent: 100px st-font">
+        I am <b class="text-warning">Md. Faisal Ahammed, </b>a highly motivated
+        software engineer with a solid educational background and practical
+        experience in the field. I completed my graduation from IIT, NSTU,
+        specializing in Software Engineering. My passion for technology and
+        problem-solving has driven me to excel in various programming languages
+        and tools. I am proficient in web development using Django and
+        Python,with a strong foundation in C, C++, and Java.
+      </p>
+    </div>
+  </div>
+  <div class="text-center">
+    <a href="" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+    <a href="" class="btn btn-outline-info my-3 mr-5">Contact</a>
+  </div>
+</div>
+{% endblock content%}
